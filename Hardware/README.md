@@ -10,33 +10,33 @@ This section will show the build process for electronics and structural material
 I'm going to start by attaching the servo to the Xiao ESP32-C3 MCU using a breadboard and then connecting the servo to laser-cut pieces.
 
 [wokwi design](https://wokwi.com/projects/397272562672190465)
- <Imgs src="Imgs/Base_circuit.png" alt="circuit" width="400"/><br>
+ <Img src="Imgs/Base_circuit.png" alt="circuit" width="400"/><br>
 
 ## Materials
 To build the Object Classifier, I'll need the following hardware components. Visual references for each part are provided below.
 <table>
 <tr>
     <td>
-        <Imgs src="Imgs/BreadBoard.png" alt="Breadboard" width="200"/><br>
+        <Img src="Imgs/BreadBoard.png" alt="Breadboard" width="200"/><br>
         <strong>Breadboard</strong>
     </td>
     <td>
-        <Imgs src="Imgs/Usb.jpg" alt="USB Micro-B Breakout Board" width="200"/><br>
+        <Img src="Imgs/Usb.jpg" alt="USB Micro-B Breakout Board" width="200"/><br>
         <strong>USB Micro-B Breakout Board</strong>
     </td>
 </tr>
 <tr>
     <td>
-        <Imgs src="Imgs/MicroController.jpg" alt="Microcontroller" width="100"/><br>
+        <Img src="Imgs/MicroController.jpg" alt="Microcontroller" width="100"/><br>
         <strong>Xiao esp32 c3</strong>
     </td>    <td>
-        <Imgs src="Imgs/MG996R.jpg" alt="Microcontroller" width="200"/><br>
+        <Img src="Imgs/MG996R.jpg" alt="Microcontroller" width="200"/><br>
         <strong>Metal servo motor</strong>
     </td>
 </tr>
 <tr>
     <td>
-        <Imgs src="Imgs/JumperWires.png" alt="Track Sensor" width="200"/><br>
+        <Img src="Imgs/JumperWires.png" alt="Track Sensor" width="200"/><br>
         <strong>Jumper Wires</strong>
     </td>
 </tr>
@@ -45,16 +45,16 @@ To build the Object Classifier, I'll need the following hardware components. Vis
 
 ## Circuit result
 This circuit successfully changes the angle of the servo motor.
-<Imgs src="Imgs/Mcu_servo_photo.jpeg" alt="circuit" width="400"><br>
+<Img src="Imgs/Mcu_servo_photo.jpeg" alt="circuit" width="400"><br>
 
 ## Laser cut design
 I will use laser cutting because it's cheap and fast, perfect for 2D prototyping.
 
 ## Laser designed parts
 These parts are supposed to hold the servo and use servo movement to classify in 2 categories.
-<Imgs src="LaserCut/ServoMount.svg" alt="circuit" width="400"><br>
+<Img src="LaserCut/ServoMount.svg" alt="circuit" width="400"><br>
 
 ## Laser parts result
 In this first try, I achieved using the servo motor as a classifier, but the space designed to hold the servo with screws is too small. So it will need a little adjustment.
 <br>
-<Imgs src="Imgs/First_it_laser_cut.jpeg" alt="circuit" width="400"><br>
+<Img src="Imgs/First_it_laser_cut.jpeg" alt="circuit" width="400"><br>
