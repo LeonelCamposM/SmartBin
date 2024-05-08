@@ -8,8 +8,9 @@ This section will show the build process for electronics and structural material
 
 ## Circuit design 
 I'm going to start by attaching the servo to the Xiao ESP32-C3 MCU using a breadboard and then connecting the servo to laser-cut pieces.
-
+<br>
 [wokwi design](https://wokwi.com/projects/397272562672190465)
+<br>
  <Img src="Imgs/Base_circuit.png" alt="circuit" width="400"/><br>
 
 ## Materials
@@ -27,7 +28,7 @@ To build the Object Classifier, I'll need the following hardware components. Vis
 </tr>
 <tr>
     <td>
-        <Img src="Imgs/MicroController.jpg" alt="Microcontroller" width="100"/><br>
+        <Img src="Imgs/Microcontroller.jpg" alt="Microcontroller" width="100"/><br>
         <strong>Xiao esp32 c3</strong>
     </td>    <td>
         <Img src="Imgs/MG996R.jpg" alt="Microcontroller" width="200"/><br>
@@ -45,6 +46,7 @@ To build the Object Classifier, I'll need the following hardware components. Vis
 
 ## Circuit result
 This circuit successfully changes the angle of the servo motor.
+<br>
 <Img src="Imgs/Mcu_servo_photo.jpeg" alt="circuit" width="400"><br>
 
 ## Laser cut design
