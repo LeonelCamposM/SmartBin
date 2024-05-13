@@ -62,5 +62,7 @@ In this initial attempt, I successfully used the servo motor as a classifier, bu
 
 ## Second Iterarion 
 In this iteration, the laser-cut parts needed for the classification part of the system were completed, and the servo mount now fits in this attempt.
+<br>
 [LaserCutDesign.stl](Design/LaserCut/LaserClassifier.stl)
+<br>
 <Img src="Imgs/Second_it_laser_cut.jpeg" alt="circuit" width="400"><br>
