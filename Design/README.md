@@ -17,4 +17,8 @@ This file provides a conceptual visualization and identifies the components requ
 In this iterarion the 3d conceptual model was adapted in order to use a servo motor to handle the material classification.
 [ConceptualModel.stl](SmartClassifier.stl)
 
+## Second Iterarion
+In this iteration, the laser-cut parts needed for the classification part of the system were completed, and the servo mount now fits in this attempt.
 
+**Designed in ThinkerCaD**
+[LaserCutDesign.stl](Design/LaserCut/LaserClassifier.stl)

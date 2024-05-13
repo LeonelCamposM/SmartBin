@@ -1,13 +1,12 @@
 # SmartBin Hardware 
 
 ## Overview
-This section will show the build process for electronics and structural materials.
-
+This section will demonstrate the construction process for electronics and structural materials.
 
 ## First Iterarion 
 
 ## Circuit design 
-I'm going to start by attaching the servo to the Xiao ESP32-C3 MCU using a breadboard and then connecting the servo to laser-cut pieces.
+I will begin by connecting the servo to the Xiao ESP32-C3 MCU using a breadboard, and then linking the servo to laser-cut pieces.
 <br>
 [wokwi design](https://wokwi.com/projects/397272562672190465)
 <br>
@@ -57,6 +56,11 @@ These parts are supposed to hold the servo and use servo movement to classify in
 <Img src="LaserCut/ServoMount.svg" alt="circuit" width="400"><br>
 
 ## Laser parts result
-In this first try, I achieved using the servo motor as a classifier, but the space designed to hold the servo with screws is too small. So it will need a little adjustment.
+In this initial attempt, I successfully used the servo motor as a classifier, but the space designed to hold the servo with screws is too small. It will need slight adjustment.
 <br>
 <Img src="Imgs/First_it_laser_cut.jpeg" alt="circuit" width="400"><br>
+
+## Second Iterarion 
+In this iteration, the laser-cut parts needed for the classification part of the system were completed, and the servo mount now fits in this attempt.
+[LaserCutDesign.stl](Design/LaserCut/LaserClassifier.stl)
+<Img src="Imgs/Second_it_laser_cut.jpeg" alt="circuit" width="400"><br>
