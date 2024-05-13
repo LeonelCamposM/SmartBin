@@ -21,4 +21,4 @@ In this iterarion the 3d conceptual model was adapted in order to use a servo mo
 In this iteration, the laser-cut parts needed for the classification part of the system were completed, and the servo mount now fits in this attempt.
 
 **Designed in ThinkerCaD**
-[LaserCutDesign.stl](/LaserCut/LaserClassifier.stl)
+[LaserCutDesign.stl](https://github.com/LeonelCamposM/SmartBin/blob/main/Design/LaserCut/LaserClassifier.stl)
