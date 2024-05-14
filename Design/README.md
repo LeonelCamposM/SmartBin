@@ -1,4 +1,4 @@
-# SmartBin STL Design
+# Structural materials
 
 ## Overview
 The SmartBin is designed to enhance waste management through automatic classification of electronics using a AI Sensor. This STL file outlines the preliminary design and necessary components for the prototype.

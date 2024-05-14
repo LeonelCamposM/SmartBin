@@ -1,4 +1,4 @@
-# SmartBin Hardware 
+# Hardware 
 
 ## Overview
 This section will demonstrate the construction process for electronics and structural materials.
