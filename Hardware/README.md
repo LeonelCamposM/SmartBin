@@ -66,3 +66,37 @@ In this iteration, the laser-cut parts needed for the classification part of the
 [LaserCutDesign.stl](https://github.com/LeonelCamposM/SmartBin/blob/main/Design/LaserCut/LaserClassifier.stl)
 <br>
 <Img src="Imgs/Second_it_laser_cut.jpeg" alt="circuit" width="400"><br>
+
+## Tird Iterarion 
+In this iteration the vision system will be designed and built, also i will try to expose an interface between the vision system and the classifier system.
+
+## Materials
+To build the Vision system, I'll need the following hardware components. Visual references for each part are provided below.
+<table>
+<tr>
+    <td>
+        <Img src="Imgs/Microcontroller.jpg" alt="Microcontroller" width="100"/><br>
+        <strong>Xiao esp32 c3</strong>
+    </td>
+     <td>
+        <Img src="Imgs/Groove.jpg" alt="Track Sensor" width="200"/><br>
+        <strong>Grove Vision AI V2.</strong>
+    </td>
+</tr>
+<tr>
+</tr>
+<tr>
+     <td>
+        <Img src="Imgs/Camera.png" alt="Track Sensor" width="200"/><br>
+        <strong>GrooveCamera</strong>
+    </td>
+</tr>
+</table>
+
+Hardware Connection
+Connect the Grove Vision AI (WE2) module to the default I2C interface of your Arduino board using the 4-Pin Cable. Make sure each wire is connected to the correct pin.
+
+SCL -> SCL (Grove Vision AI WE2)
+SDA -> SDA (Grove Vision AI WE2)
+VCC -> VCC (Grove Vision AI WE2, 3.3V)
+GND -> GND (Grove Vision AI WE2)

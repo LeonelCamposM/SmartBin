@@ -45,6 +45,7 @@ Involves extracting relevant features from the images to be used as input for th
 
 - **Impulse design/Transfer learning**
 Utilizes pre-trained models to expedite the training process by leveraging knowledge from models trained on similar tasks.
+In this case i will use MobileNetv2 model architecture.
 <br>
 <Img src="Imgs/TransferLearning.png" alt="circuit" width="600"/><br>
 <br>
