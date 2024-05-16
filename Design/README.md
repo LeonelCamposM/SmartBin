@@ -1,7 +1,7 @@
 # Structural materials
 
 ## Overview
-The SmartBin is designed to enhance waste management through automatic classification of electronics using a AI Sensor. This STL file outlines the preliminary design and necessary components for the prototype.
+The SmartBin is designed to enhance waste management through automatic classification of electronics waste using a AI Sensor. This STL file outlines the preliminary design and necessary components for the prototype.
 
 ## Necessary Components
 - **AI Camera**: Detect and classify waste types.
@@ -22,3 +22,11 @@ In this iteration, the laser-cut parts needed for the classification part of the
 
 **Designed in ThinkerCaD**
 [LaserCutDesign.stl](https://github.com/LeonelCamposM/SmartBin/blob/main/Design/LaserCut/LaserClassifier.stl)
+
+## Third Iterarion
+Create my own classification model to classify different kinds of electronic trash and deploy it into the AI vision sensor.
+
+[EdgeImpulse Project (Model Training, Dataset)](https://studio.edgeimpulse.com/public/398417/live)
+<br>
+
+[Integrate AIVisionSystem with ObjectClassifier System](https://www.instagram.com/p/C6-k41gOTJm/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==)

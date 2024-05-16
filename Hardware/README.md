@@ -27,8 +27,8 @@ To build the Object Classifier, I'll need the following hardware components. Vis
 </tr>
 <tr>
     <td>
-        <Img src="Imgs/Microcontroller.jpg" alt="Microcontroller" width="100"/><br>
-        <strong>Xiao esp32 c3</strong>
+        <Img src="Imgs/XiaoSense.jpg" alt="Microcontroller" width="200"/><br>
+        <strong>Xiao esp32 s3 sense</strong>
     </td>    <td>
         <Img src="Imgs/MG996R.jpg" alt="Microcontroller" width="200"/><br>
         <strong>Metal servo motor</strong>
@@ -67,7 +67,7 @@ In this iteration, the laser-cut parts needed for the classification part of the
 <br>
 <Img src="Imgs/Second_it_laser_cut.jpeg" alt="circuit" width="400"><br>
 
-## Tird Iterarion 
+## Third Iterarion 
 In this iteration the vision system will be designed and built, also i will try to expose an interface between the vision system and the classifier system.
 
 ## Materials
@@ -75,11 +75,11 @@ To build the Vision system, I'll need the following hardware components. Visual 
 <table>
 <tr>
     <td>
-        <Img src="Imgs/Microcontroller.jpg" alt="Microcontroller" width="100"/><br>
-        <strong>Xiao esp32 c3</strong>
+        <Img src="Imgs/XiaoSense.jpg" alt="Microcontroller" width="200"/><br>
+        <strong>Xiao esp32 s3 sense</strong>
     </td>
      <td>
-        <Img src="Imgs/Groove.jpg" alt="Track Sensor" width="200"/><br>
+        <Img src="Imgs/Grove.jpg" alt="Track Sensor" width="200"/><br>
         <strong>Grove Vision AI V2.</strong>
     </td>
 </tr>
@@ -88,15 +88,21 @@ To build the Vision system, I'll need the following hardware components. Visual 
 <tr>
      <td>
         <Img src="Imgs/Camera.png" alt="Track Sensor" width="200"/><br>
-        <strong>GrooveCamera</strong>
+        <strong>Grove Camera</strong>
     </td>
 </tr>
 </table>
 
-Hardware Connection
-Connect the Grove Vision AI (WE2) module to the default I2C interface of your Arduino board using the 4-Pin Cable. Make sure each wire is connected to the correct pin.
+## Wiring diagram
+In this case, the interface between the vision system and the classifier system will be the microcontroller, using the I2C communication protocol to read the AI sensor output and activate the servo motor using the PWM output on pin D1.
+<br>
+<Img src="Imgs/WiringDiagram.png" alt="Track Sensor" width="600"/><br>
 
-SCL -> SCL (Grove Vision AI WE2)
-SDA -> SDA (Grove Vision AI WE2)
-VCC -> VCC (Grove Vision AI WE2, 3.3V)
-GND -> GND (Grove Vision AI WE2)
+## Real circuit
+I decided to use the ESP32-S3 because the D1 pin of the Xiao ESP32-C3 wasn't working with my servo. So, I decided to continue using the ESP32-S3.
+
+The Grove board female headers provide the I2C interface. I also soldered two jumper wires on top of the D1 and GND pins to use them at the same time as I'm using the Grove AI V2 connector.
+
+Click this image to watch a demo of the circuit tuning a custom model for e-waste classification:
+<br>
+<a href="https://www.instagram.com/p/C6-k41gOTJm/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" target="_blank"><img src="Imgs/PrototypeCricuit.jpeg" alt="Demo video" width="400"></a>

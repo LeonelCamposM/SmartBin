@@ -15,7 +15,10 @@ I successfully followed this post to in order to learn how to design and deploy 
 <br>
 <Img src="Imgs/MLProcess.avif" alt="circuit" width="600"/><br>
 <br>
+
+## Third Iteration
 The next step will be to create my own classification model to classify different kinds of electronic trash and deploy it into the AI vision sensor.
+<br>
 
 ## Base image classification model
 This model was built in order to have a very simplified version trained to classify wires, batteries, and background.
