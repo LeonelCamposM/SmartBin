@@ -9,6 +9,6 @@ This project aims to create a smart bin capable of classifying and sorting waste
 Check out the video on [Instagram](https://www.instagram.com/p/C7LQaIttQ3A/) to see the smart bin in action!
 
 ## Table of Contents
-- [Design](./Design).
+- [Design](./Design)
 - [Hardware Components](./Hardware)
 - [Software Components](./Software)
