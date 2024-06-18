@@ -31,7 +31,7 @@ The development process involved three iterations: adapting the 3D conceptual mo
 <br>
 
 - **Documentation**
-This shows the step-by-step instructions and the progress made during each phase of the project.
+This section shows the step-by-step instructions and the progress made during each phase of the project.
 [Hardware Components](./Hardware)
 [Software Components](./Software)
 <br>
